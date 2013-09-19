@@ -4,7 +4,8 @@ require 'json'
 
 get '/reach.json' do
   content_type :json
-  { :reach_percentage => "#{(rand(20)+60)}" }.to_json
+  # { :reach_percentage => "#{(rand(20)+60)}" }.to_json #DEFAULT - RETURNS RAND VALUE BETWEEN 60 AND 80
+  { :reach_percentage => "#{(rand(60)+40)}" }.to_json #USING THIS LINE TO TEST CONDITIONAL BACKGROUND COLOR
 end
 
 get '/percentage_satisfied.json' do
@@ -20,5 +21,5 @@ end
 
 get '/followup_timeliness.json' do
   content_type :json
-  { :time_to_reach => "#{(rand(10) + 10)}", :time_to_close => "#{(rand(10))}" }.to_json
+  { :time_to_reach => "#{(rand(10)+10)}", :time_to_close => "#{(rand(10))}" }.to_json
 end

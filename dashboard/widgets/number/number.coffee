@@ -15,6 +15,7 @@ class Dashing.Number extends Dashing.Widget
     if @get('last')
       if parseInt(@get('current')) > parseInt(@get('last')) then 'icon-arrow-up' else 'icon-arrow-down'
 
+
   onData: (data) ->
     if data.status
       # clear existing "status-*" classes
@@ -22,3 +23,9 @@ class Dashing.Number extends Dashing.Widget
         c.replace /\bstatus-\S+/g, ''
       # add new class
       $(@get('node')).addClass "status-#{data.status}"
+    if parseInt(@get('current')) > 80
+      $(@get('node')).css('background-color', '#00d600')
+    else if parseInt(@get('current')) < 60
+      $(@get('node')).css('background-color', '#d60004')
+    else if parseInt(@get('current')) >= 60
+      $(@get('node')).css('background-color', '#d6cf00')

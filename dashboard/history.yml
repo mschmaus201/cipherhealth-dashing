@@ -1,47 +1,47 @@
 ---
-buzzwords: ! 'data: {"items":[{"label":"Turn-key","value":18},{"label":"Pivoting","value":13},{"label":"Web
-  2.0","value":22},{"label":"Synergy","value":12},{"label":"Exit strategy","value":11},{"label":"Enterprise","value":7},{"label":"Leverage","value":20},{"label":"Paradigm
-  shift","value":14},{"label":"Streamlininess","value":7}],"id":"buzzwords","updatedAt":1379622774}
+buzzwords: ! 'data: {"items":[{"label":"Exit strategy","value":4},{"label":"Streamlininess","value":6},{"label":"Leverage","value":5},{"label":"Web
+  2.0","value":6},{"label":"Synergy","value":4},{"label":"Pivoting","value":4},{"label":"Enterprise","value":5},{"label":"Turn-key","value":8},{"label":"Paradigm
+  shift","value":7}],"id":"buzzwords","updatedAt":1379626153}
 
 
 '
-convergence: ! 'data: {"points":[{"x":125,"y":43},{"x":126,"y":20},{"x":127,"y":43},{"x":128,"y":29},{"x":129,"y":28},{"x":130,"y":43},{"x":131,"y":1},{"x":132,"y":30},{"x":133,"y":43},{"x":134,"y":7}],"id":"convergence","updatedAt":1379622774}
+convergence: ! 'data: {"points":[{"x":50,"y":46},{"x":51,"y":13},{"x":52,"y":9},{"x":53,"y":40},{"x":54,"y":11},{"x":55,"y":12},{"x":56,"y":6},{"x":57,"y":5},{"x":58,"y":38},{"x":59,"y":32}],"id":"convergence","updatedAt":1379626153}
 
 
 '
-valuation: ! 'data: {"current":36,"last":75,"id":"valuation","updatedAt":1379622774}
+valuation: ! 'data: {"current":33,"last":5,"id":"valuation","updatedAt":1379626153}
 
 
 '
-karma: ! 'data: {"current":2241,"last":171010,"id":"karma","updatedAt":1379622774}
+karma: ! 'data: {"current":102826,"last":118047,"id":"karma","updatedAt":1379626153}
 
 
 '
-synergy: ! 'data: {"value":9,"id":"synergy","updatedAt":1379622774}
+synergy: ! 'data: {"value":83,"id":"synergy","updatedAt":1379626153}
 
 
 '
-weekly_focus: ! 'data: {"text":"Sat","id":"weekly_focus","updatedAt":1379622775}
+weekly_focus: ! 'data: {"text":"Sat","id":"weekly_focus","updatedAt":1379626153}
 
 
 '
-reach: ! 'data: {"current":"63","last":"77","id":"reach","updatedAt":1379622772}
+reach: ! 'data: {"current":"46","last":"91","id":"reach","updatedAt":1379626151}
 
 
 '
-time_to_reach: ! 'data: {"value":"11","id":"time_to_reach","updatedAt":1379622772}
+time_to_reach: ! 'data: {"value":"16","id":"time_to_reach","updatedAt":1379626151}
 
 
 '
-time_to_close: ! 'data: {"value":"2","id":"time_to_close","updatedAt":1379622772}
+time_to_close: ! 'data: {"value":"9","id":"time_to_close","updatedAt":1379626151}
 
 
 '
-percentage_satisfied1: ! 'data: {"value":"118","id":"percentage_satisfied1","updatedAt":1379622772}
+percentage_satisfied1: ! 'data: {"value":"118","id":"percentage_satisfied1","updatedAt":1379626151}
 
 
 '
-percentage_satisfied2: ! 'data: {"value":"62","id":"percentage_satisfied2","updatedAt":1379622772}
+percentage_satisfied2: ! 'data: {"value":"51","id":"percentage_satisfied2","updatedAt":1379626151}
 
 
 '
