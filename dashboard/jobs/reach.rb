@@ -1,9 +1,11 @@
 require 'httparty'
 
-SCHEDULER.every '5s', :first_in => 0 do |job|
-  reach_get_request = HTTParty.get('http://localhost:9393/reach.json')
-  reach_percentage = reach_get_request.parsed_response
-  # reach_percentage = reach_get_request.parsed_response["reach_percentage"]
+reach_percentage = 0
 
-  send_event('reach',   { value: reach_percentage["reach_percentage"] })
+SCHEDULER.every '5s', :first_in => 0 do |job|
+  last_reach = reach_percentage
+  reach_get_request = HTTParty.get('http://localhost:9393/reach.json')
+  reach_percentage = reach_get_request.parsed_response["reach_percentage"]
+
+  send_event('reach', { current: reach_percentage, last: last_reach })
 end
